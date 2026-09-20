@@ -1,0 +1,192 @@
+# AIFS Master Functional Blueprint
+**Features, Options, Text, and Buttons for All 60 Screens**
+
+---
+
+## SECTION A: PUBLIC WEBSITE
+
+### A1. Home Page
+*   **Features & Options:** Sticky navigation, mobile hamburger menu, hero section, side-by-side comparison (Traditional vs AI), Pain Points grid, 3-column Transformation (Become/Learn/Gain), 5-Phase Curriculum timeline, Dynamic course/live class carousels, Testimonial slider, Student project video grid.
+*   **Text:** 
+    *   *Menu:* Home | Courses | Curriculum | Live Classes | Examples | Instructors | Reviews | FAQ
+    *   *Hero:* "Master AI Filmmaking", "Create Shorts, Films, Ads, YouTube Videos & Bring Your Creative Vision to Life!"
+    *   *Comparison:* "Why AI Filmmaking is the Future?" (Traditional: Months/years, high cost vs AI: Weeks/days, low cost, endless iteration).
+    *   *Pain Points:* "This Program is for You If… You have strong ideas but struggle to execute them with AI."
+    *   *Transformation:* "What You’ll Become? What You’ll Learn? What You’ll Gain?"
+*   **Buttons (CTAs):** `[ Sign In ]`, `[ Join a Free Masterclass ]`, `[ Explore Courses ]`, `[ Enrol Now ]`, `[ Reserve Seat ]`
+
+### A2. Courses Catalogue
+*   **Features & Options:** Search bar (by keyword, tutor), Filter sidebar (Category, Language, Difficulty, Price, Format - Live/Recorded), Sort dropdown (Newest, Price, Rating), Grid of course cards, Pagination.
+*   **Text:** "Explore Our AI Filmmaking Courses", "Find the perfect program to master your craft."
+*   **Buttons:** `[ Apply Filters ]`, `[ Clear All ]`, `[ View Course ]` on cards, `[ Load More ]`
+
+### A3. Course Detail Page
+*   **Features & Options:** Course preview video player, Tabbed layout (Overview, Curriculum, Reviews, Instructor), Sticky pricing/enrollment sidebar, Progress indicators for curriculum (locked/preview icons).
+*   **Text:** Course Title, "What you will learn" (bullet points), Requirements, Detailed module descriptions, Refund policy short-text, Certificate criteria.
+*   **Buttons:** `[ Buy Now (INR) ]`, `[ Watch Free Preview ]`, `[ Add to Wishlist ]`, `[ Share ]`
+
+### A4. Curriculum (Dedicated View)
+*   **Features & Options:** Expandable/collapsible accordion of all 5 Phases and their respective modules/lessons. Badges showing video duration and format (Text/Video/Quiz).
+*   **Text:** "The 5-Phase AIFS System", Module Titles, Lesson descriptions.
+*   **Buttons:** `[ Expand All ]`, `[ Collapse All ]`
+
+### A5. Live Classes Page
+*   **Features & Options:** Calendar view or list view of upcoming live batches, Timezone auto-converter (defaults to IST), Filter by Instructor/Topic.
+*   **Text:** "Upcoming Live Batches", "Learn in real-time with industry experts."
+*   **Buttons:** `[ Reserve Seat ]`, `[ Notify Me ]` (if full)
+
+### A6. Examples / Student Projects
+*   **Features & Options:** Masonry video grid, Filter by category (Ad, Short Film, YouTube Video), Modal video player.
+*   **Text:** "Real Films by Real Students", "See what you can create after 30 days."
+*   **Buttons:** `[ Play Video ]`, `[ View Student Profile ]`
+
+### A7. Instructors (Directory & Profile)
+*   **Features & Options:** Grid of instructors. Clicking opens a profile with their bio, social links, and a list of courses they teach.
+*   **Text:** "Meet Your Mentors", Instructor Bio, "Total Students", "Average Rating".
+*   **Buttons:** `[ View Profile ]`, `[ Browse Instructor's Courses ]`
+
+### A8. Reviews / Wall of Love
+*   **Features & Options:** Infinite scroll of text and video testimonials, average platform rating widget.
+*   **Text:** "Hear From Our Students", Star ratings, specific quotes about the 5-phase system.
+*   **Buttons:** `[ Read More ]`, `[ Play Video Review ]`
+
+### A9. FAQ Page
+*   **Features & Options:** Categorized accordions (General, Payments, Courses, Technical).
+*   **Text:** Questions like "Do I need prior experience?", "What AI tools are covered?" and detailed answers.
+*   **Buttons:** `[ Still need help? Contact Support ]`
+
+### A10. Memberships
+*   **Features & Options:** Pricing table comparison (Monthly vs Annual toggle), Feature checklist with check/cross icons.
+*   **Text:** "Unlock All-Access Learning", "Choose Your Membership Plan" (e.g., Studio Plan vs Director Plan).
+*   **Buttons:** `[ Subscribe Monthly ]`, `[ Subscribe Annually - Save 20% ]`
+
+### A11. Resources / Blog
+*   **Features & Options:** Article grid, Category tags (Prompt Engineering, Case Studies, Updates), Search bar.
+*   **Text:** "AI Filmmaking Insights", Article titles, excerpts, Author names.
+*   **Buttons:** `[ Read Article ]`
+
+### A12. Become a Tutor
+*   **Features & Options:** Application form (File upload for portfolio, Text areas for bio), Benefits section.
+*   **Text:** "Teach the Future of Filmmaking", "Earn commission on every enrollment."
+*   **Buttons:** `[ Submit Application ]`
+
+### A13. About & Contact
+*   **Features & Options:** Contact form (Name, Email, Subject, Message), Google Map embed, Social links.
+*   **Text:** Mission statement, "India's first AI Filmmaking Studio LMS", Support email, WhatsApp number.
+*   **Buttons:** `[ Send Message ]`
+
+### A14. Auth & Legal (Sign Up, Sign In, Passwords, Policies)
+*   **Features & Options:** Email/Password inputs, Google OAuth, Show/hide password toggle, Rich text for legal pages.
+*   **Text:** "Welcome Back", "Create an Account", Terms of Service, Privacy Policy.
+*   **Buttons:** `[ Sign In ]`, `[ Continue with Google ]`, `[ Forgot Password? ]`, `[ Reset Password ]`
+
+---
+
+## SECTION B: STUDENT DASHBOARD
+
+### B1. Dashboard Home
+*   **Features & Options:** Welcome banner, Resume last course widget, Mini-calendar for upcoming live classes, Notification bell.
+*   **Text:** "Welcome back, [Name]", "Your Progress", "Announcements".
+*   **Buttons:** `[ Continue Learning ]`, `[ Join Zoom Class ]`
+
+### B2. My Courses
+*   **Features & Options:** Filter tabs (All, In Progress, Completed), Progress bars for each course.
+*   **Text:** Course titles, "% Completed", "Last Accessed".
+*   **Buttons:** `[ Start Course ]`, `[ Resume ]`
+
+### B3. Learning Player
+*   **Features & Options:** Custom video player (speed control, CC, full screen), Sidebar with module navigation, Tabs under video (Overview, Downloads, Q&A, Notes).
+*   **Text:** Lesson Title, Lesson text content, Downloadable file names.
+*   **Buttons:** `[ Mark as Complete & Next ]`, `[ Previous ]`, `[ Ask Question ]`, `[ Save Note ]`
+
+### B4. Live Batches & B5. Recordings Library
+*   **Features & Options:** List of enrolled batches, Countdown timer to next class, Grid of past recordings.
+*   **Text:** Batch Schedule (IST), "Recording expires in X days".
+*   **Buttons:** `[ Join Live (Zoom) ]`, `[ Watch Recording ]`, `[ Add to Calendar ]`
+
+### B6. Assignments & B7. Quizzes
+*   **Features & Options:** Upload area for files/links, Grader feedback view, Timer for quizzes, Multiple choice selection.
+*   **Text:** "Assignment Instructions", "Due Date", "Tutor Feedback", "Quiz Score".
+*   **Buttons:** `[ Submit Assignment ]`, `[ Start Quiz ]`, `[ Retake Quiz ]`
+
+### B8. Certificates
+*   **Features & Options:** Grid of earned certificates, PDF generator, LinkedIn share integration.
+*   **Text:** "Verified Credentials", Issue Date, Course Name.
+*   **Buttons:** `[ Download PDF ]`, `[ Add to LinkedIn ]`, `[ Copy Public Link ]`
+
+### B9. Orders, B10. Community, B11. Support, B12. Settings
+*   **Features & Options:** Invoice table, WhatsApp group links, Ticketing system (Create/Reply), Profile editor (Avatar upload, Password change).
+*   **Text:** Order IDs, Payment Status, "Join Community Group", Ticket Status (Open/Resolved), Notification toggles.
+*   **Buttons:** `[ Download Invoice ]`, `[ Open WhatsApp ]`, `[ Create Ticket ]`, `[ Save Changes ]`
+
+---
+
+## SECTION C: TUTOR WORKSPACE
+
+### C1. Tutor Dashboard & C2. Onboarding
+*   **Features & Options:** KPI widgets (Students, Earnings, Pending Assignments), Profile editor (Bio, Intro video link).
+*   **Text:** "Total Earnings", "Active Students", "Unanswered Questions".
+*   **Buttons:** `[ Create New Course ]`, `[ Schedule Live Class ]`, `[ Update Profile ]`
+
+### C3. My Courses & C4. Course Editor
+*   **Features & Options:** Drag-and-drop curriculum builder, Video uploader, Pricing toggles, Status toggles (Draft/Review/Published).
+*   **Text:** Course Metadata fields (Title, SEO, Prerequisites, Price).
+*   **Buttons:** `[ Add Module ]`, `[ Add Lesson ]`, `[ Save Draft ]`, `[ Submit for Approval ]`
+
+### C5. Batches, C6. Batch Detail, C7. Schedule Class
+*   **Features & Options:** Calendar picker, Seat limit input, Zoom link input.
+*   **Text:** Batch Name, Start/End Date, Enrolled Students list.
+*   **Buttons:** `[ Create Batch ]`, `[ Notify Students ]`, `[ Cancel Class ]`
+
+### C8. Upload Recording
+*   **Features & Options:** File uploader, Dropdown to select which batch/lesson the recording belongs to.
+*   **Text:** "Recording Title", "Visibility Settings".
+*   **Buttons:** `[ Upload Video ]`, `[ Publish to Students ]`
+
+### C9. Students, C10. Q&A, C11. Assignments Grading
+*   **Features & Options:** Searchable student list, Q&A thread view, Assignment review panel (Score input, Text feedback).
+*   **Text:** Student Progress %, Questions from lessons, Submission links.
+*   **Buttons:** `[ Reply to Student ]`, `[ Approve Submission ]`, `[ Request Resubmission ]`
+
+### C12. Earnings & Payouts & C13. Reports
+*   **Features & Options:** Ledger table (Sales vs Commission), Payout request form, CSV export.
+*   **Text:** "Available for Payout", "In Hold Period", "Commission Rate".
+*   **Buttons:** `[ Request Payout ]`, `[ Export CSV ]`
+
+---
+
+## SECTION D: SUPERADMIN CONSOLE
+
+### D1. Overview & D2. Users
+*   **Features & Options:** Global platform KPIs, User management table (Search, Filter by Role, Ban/Suspend).
+*   **Text:** "Platform Revenue", "Total Signups", User Details (Email, Join Date).
+*   **Buttons:** `[ Edit User ]`, `[ Manually Enrol User ]`, `[ Impersonate User ]`
+
+### D3. Tutors & D4. Courses
+*   **Features & Options:** Application review queue, Course approval queue, Global course editor override.
+*   **Text:** Application Details, Tutor Commission %, Course Status.
+*   **Buttons:** `[ Approve Tutor ]`, `[ Reject with Feedback ]`, `[ Publish Course ]`, `[ Feature Course on Homepage ]`
+
+### D5. Batches & D6. Orders & Finance
+*   **Features & Options:** Master schedule view, Transaction ledger, Refund processor.
+*   **Text:** Zoom Conflicts, Order IDs, Razorpay Transaction IDs, Payment amounts.
+*   **Buttons:** `[ Reassign Tutor ]`, `[ Issue Full Refund ]`, `[ Generate Coupon ]`
+
+### D7. Earnings & Payouts & D8. Memberships
+*   **Features & Options:** Master payout ledger, Membership tier configuration (Price, Features).
+*   **Text:** Pending Tutor Payouts, "Monthly Plan Price", "Annual Plan Price".
+*   **Buttons:** `[ Mark Payout as Paid ]`, `[ Edit Membership Tier ]`
+
+### D9. CMS, D10. Communication, D11. Reports, D12. Settings
+*   **Features & Options:** Homepage section toggles, Mass email/announcement sender, Analytics charts, API key inputs (Razorpay, Zoom, Google).
+*   **Text:** "Hero Banner Text", "Broadcast Message", "System Settings".
+*   **Buttons:** `[ Update Homepage ]`, `[ Send Announcement ]`, `[ Export Analytics ]`, `[ Save API Keys ]`
+
+---
+
+## SECTION E: SUPPORT STAFF
+
+### E1. Support Dashboard & E2. Ticket Detail
+*   **Features & Options:** Ticket queue (Open, Pending, Escalated), Read-only view of student orders, Chat interface for ticket replies.
+*   **Text:** Ticket Subject, Student History, Internal Notes.
+*   **Buttons:** `[ Reply to Student ]`, `[ Add Internal Note ]`, `[ Escalate to Superadmin ]`, `[ Close Ticket ]`
